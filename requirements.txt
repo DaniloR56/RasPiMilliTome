@@ -1,0 +1,8 @@
+opencv-python
+numpy
+pillow
+scipy
+scikit-image
+pyvista
+vtk
+
