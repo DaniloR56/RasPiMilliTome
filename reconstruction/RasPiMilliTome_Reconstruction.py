@@ -94,7 +94,7 @@
 # If this software contributes to published work, please cite:
 #
 # Roccatano D.
-# The RasPi MilliTome: A Low-Cost Platform for Teaching 
+# The RasPi MilliTome: A Low-Cost Platform for Teaching
 # Three-Dimensional Reconstruction from Serial Sections
 #
 # ==============================================================
@@ -360,7 +360,7 @@ def update_display(*args):
     overlay[mask > 0] = [0,255,0]
 
     # Save full-resolution publication figures
-    save_stage_images(img, gray, mask, overlay)
+    #save_stage_images(img, gray, mask, overlay)
 
     # ---------- SMALL DISPLAY COPIES ----------
 

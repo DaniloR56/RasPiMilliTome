@@ -1,0 +1,12 @@
+{
+    "Hmin": 56,
+    "Hmax": 95,
+    "Smin": 50,
+    "Smax": 255,
+    "Vmin": 40,
+    "Vmax": 255,
+    "square_size": "25",
+    "slice_thickness": "0.5",
+    "min_blob_size": "1000",
+    "keep_largest": true
+}
