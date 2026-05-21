@@ -2,6 +2,8 @@
 
 Low-cost educational platform for serial sectioning and 3D reconstruction.
 
+![RasPi MilliTome](figures/AiGenrated.png)
+
 ## Features
 
 - Raspberry Pi image acquisition
