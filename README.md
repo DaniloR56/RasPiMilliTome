@@ -48,13 +48,13 @@ Run it on the Raspberry Pi with the appropriate camera software. The reconstruct
 
 ## Example data
 
-The quantitative kinetic-sand examples use a recorded 0.6 mm interval:
+The quantitative kinetic-sand examples use a nominal 0.6 mm interval:
 
 - [Dataset 1](example_data/KineticSand/Dataset1): orange background, 32 photographs.
 - [Dataset 2](example_data/KineticSand/Dataset2): magenta background, 40 photographs.
 - [Dataset 3](example_data/KineticSand/Dataset3): magenta background, 40 photographs; illustrated in the manuscript.
 
-Each contains photographs, complete saved settings, masks and a sectional-area CSV. Use each dataset's own JSON to reproduce its archived analysis; ROI and physical calibration are dataset-specific. The [dataset summary](example_data/KineticSand/README_revision.md) gives settings and volumes.
+Each contains photographs, complete saved settings, masks and a sectional-area CSV. Use each dataset's own JSON to reproduce its archived analysis; Each ROI is dataset-specific; all three revised examples use a common assigned physical width of 23.65 mm. The [dataset summary](example_data/KineticSand/README_revision.md) gives settings and volumes.
 
 A separate [marble-cake example](example_data/MarbleCake) contains 20 photographs for exploring serial-section reconstruction.
 
@@ -65,3 +65,18 @@ Danilo Roccatano, *The RasPi MilliTome: a low-cost laboratory platform for seria
 ## Licence
 
 See [LICENSE](LICENSE).
+
+### Calibration and sensitivity results
+
+Five caliper measurements over ten half-turns gave a mean advancement of
+0.6218 mm per half-turn (sample SD 0.0025 mm between the five ten-step
+averages). These measurements characterise the present prototype;
+independently constructed devices require their own calibration.
+
+The archived examples retain the nominal 0.6 mm spacing. Applying the
+later measured mean increases the calculated volumes by 3.63%, as
+discussed in the paper’s Supporting Information.
+
+See the [reproducible sensitivity checks](validation/README.md).
+
+

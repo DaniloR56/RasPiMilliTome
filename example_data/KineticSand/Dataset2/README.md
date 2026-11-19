@@ -2,8 +2,10 @@
 
 Magenta background; 40 images; recorded spacing 0.6 mm.
 
-ROI [x,y,w,h]: [312, 718, 721, 721]; assigned physical width 23.5 mm.
+ROI [x,y,w,h]: [312, 718, 721, 721]; assigned physical width 23.65 mm.
 HSV H=25–95, S=50–255, V=40–255; 5×5 kernel, closing twice, opening once.
-Quantitative masks are unfiltered. Volume: 2304.94008 mm³.
+Quantitative masks are unfiltered. Volume: 2334.45875566 mm³.
 
 Run the reconstruction program with this folder as its argument, or select it in the GUI; segmentation_params.json restores settings. Physical scale and preparation limitations are discussed in the SI.
+
+The saved axial spacing of 0.6 mm is nominal. A later caliper check gave a mean 0.6218 mm per half-turn; the SI reports its effect separately.

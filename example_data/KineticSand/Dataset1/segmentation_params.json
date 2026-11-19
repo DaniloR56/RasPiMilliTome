@@ -51,7 +51,7 @@
     "photo_031.jpg",
     "photo_032.jpg"
   ],
-  "square_size": 23.5,
+  "square_size": 23.65,
   "slice_thickness": 0.6,
   "min_blob_size": 1000,
   "keep_largest": true,
